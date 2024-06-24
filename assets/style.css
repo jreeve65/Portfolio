@@ -53,12 +53,12 @@ nav li{
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
-
+    font-size: larger;
 }
 
 .card ul{
-    margin-top: 2%;
-    margin-left: 5%;
+    margin-top: 1%;
+    margin-left: 1.2%;
     line-height: 1.5;
     
 }
