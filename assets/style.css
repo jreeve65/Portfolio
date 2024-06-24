@@ -4,7 +4,8 @@ header{
     justify-content: space-between;
     align-items: flex-end;
     font-size: 70px;  
-    flex-wrap: wrap;  
+    flex-wrap: wrap; 
+    margin-bottom: 200px; 
     
 }
 .cover-photo{
@@ -31,6 +32,40 @@ nav li{
     margin-right: 5px;
     display: flex;
     font-size: 35px;   
+}
+
+.lines {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    border-left: solid;
+    border-width: 2px;
+}
+.card {
+    margin-top: 100px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.card ul{
+    margin-top: 2%;
+    margin-left: 5%;
+    line-height: 1.5;
+    
+}
+
+.card h2{
+    font-size: 200%;
+    margin: 20px
 }
 
 .float_right{
