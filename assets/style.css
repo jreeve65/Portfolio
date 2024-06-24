@@ -1,9 +1,11 @@
 header{
+    padding: 50px 10px 15px 10px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     background-color: darkred;
-    font-size: 50px;    
+    font-size: 70px;  
+    flex-wrap: wrap;  
     
 }
 
@@ -17,11 +19,19 @@ nav ul{
     margin-bottom: 0px;
     display: flex;
     color: gold;
+    flex-wrap: wrap;
+    border: solid;
+    border-color: darkblue;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0px 16px darkblue;
 }
 
 nav li{
-    margin-left: 30px;
+    margin-left: 10px;
+    margin-right: 5px;
     display: flex;
+    font-size: 35px;
+    background-color: darkblue;
 
 }
 
@@ -29,7 +39,10 @@ nav li{
     float: right;
 }
 .display_top{
+    position: relative;
+    top: -50px;
     margin-top: 0px;
     display: flex;
     align-content: flex-start;
+    
 }
