@@ -34,6 +34,7 @@ nav li{
     font-size: 35px;   
 }
 
+
 .lines {
     display: flex;
     flex-direction: column;
@@ -41,16 +42,18 @@ nav li{
     align-items: flex-start;
     flex-wrap: wrap;
     margin-left: 8px;
-    padding-top: 8px;
-    padding-bottom: 5px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     padding-left: 15px;
     border-left: solid;
     border-width: 2px;
+    line-height: 1.5;
+    font-size: larger;
 }
 .card {
     margin-top: 100px;
     display:flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: flex-start;
     font-size: larger;
