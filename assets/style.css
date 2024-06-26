@@ -104,9 +104,16 @@ nav li{
     max-width: 100%;
 }
 .card{
+    position: relative;
     padding: 8px;
     margin: 15px;
-    background-color: darkblue;
+    background-color: darkblue;       
     
+}
+.card div{
+    position: absolute;
+    bottom: 18px;
+    background-color: aquamarine;
+    border-radius: 0 10px 10px 0;
     
 }
