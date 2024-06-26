@@ -51,8 +51,8 @@ nav li{
 }
 
 
-.lines {
-    display: flex;
+ .lines {                                /*for getting the border to display properly on the flex box*/
+    display: flex; 
     flex-direction: column;
     justify-content:space-around;
     align-items: flex-start;
@@ -97,5 +97,18 @@ nav li{
     display: flex;
     align-content: flex-start;
     color: gold;
+    
+}
+#code-refactor img {
+    min-width: 500px;
+    max-width: 80%;
+}
+.card{
+    display: flex;
+    justify-content:center;
+    padding: 15px;
+    margin: 15px;
+    background-color: darkblue;
+    
     
 }
