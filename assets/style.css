@@ -53,8 +53,8 @@ nav li{
 
  .lines {                                /*for getting the border to display properly on the flex box*/
     display: flex; 
-    flex-direction: column;
-    justify-content:space-around;
+    flex-direction: row;
+    justify-content:flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
     margin-left: 8px;
@@ -70,7 +70,7 @@ nav li{
     margin-top: 100px;
     display:flex;
     flex-wrap: nowrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
     font-size: larger;
 }
@@ -99,11 +99,22 @@ nav li{
     color: gold;
     
 }
-#code-refactor img {
-    min-width: 500px;
+#code-refactor img{
+    min-width: 700px;
     max-width: 100%;
 }
-.card{
+#projectgg img {
+       max-width: 155rem;
+       min-width: 40rem;
+}
+#prework img{
+    max-width: 41.5rem;
+    min-width:200px;
+    
+
+}
+
+.card{ 
     position: relative;
     padding: 8px;
     margin: 15px;
