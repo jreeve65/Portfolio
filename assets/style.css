@@ -72,6 +72,9 @@ nav li{
     line-height: 1.5;
     font-size: larger;
 }
+.lines a{
+    display: inline-flex;
+}
 .container {                           /*providing a container for each section of the portfolio*/
     margin-top: 100px;
     margin: 100px 20px 20px 20px;
