@@ -10,6 +10,9 @@ header{
     flex-wrap: wrap; 
     
 }
+header a{
+    color: gold;
+}
 .cover-photo{
     background-image:url("galaxy.png");
     background-size:cover;
