@@ -51,7 +51,7 @@ nav li{
 }
 
 
- .lines {                                /*for getting the border to display properly on the flex box*/
+ .lines {                                /*for getting the border to display properly on the flex box and sets up portfolio pics to align correctly*/
     display: flex; 
     flex-direction: row;
     justify-content:space-around;
@@ -66,7 +66,7 @@ nav li{
     line-height: 1.5;
     font-size: larger;
 }
-.container {
+.container {                           /*providing a container for each section of the portfolio*/
     margin-top: 100px;
     display:flex;
     flex-wrap: nowrap;
@@ -75,7 +75,7 @@ nav li{
     font-size: larger;
 }
 
-.container ul{
+.container ul{                           /*Nav bar positioning*/
     margin-top: 1%;
     margin-left: 1.2%;
     line-height: 1.5;
@@ -99,29 +99,29 @@ nav li{
     color: gold;
     
 }
-#code-refactor img{
+#code-refactor img{         /* for adjusting refactor size and position If I cant get every image to grow I may need to hard code the size instead of using a percentage*/
     min-width: 700px;
     max-width: 100%;
 }
-#projectgg img {
+#projectgg img {           /*alters project gg portfolio image*/
        max-width: 155rem;
        min-width: 40rem;
 }
-#prework img{
+#prework img{              /*adjusts web dev studyguide picture size*/
     max-width: 41.5rem;
     min-width:200px;
     
 
 }
 
-.card{ 
+.card{                                   /*gives card a background color that extends past picture making a nice frame sets up for title placement*/
     position: relative;
     padding: 8px;
     margin: 15px;
     background-color: darkblue;       
     
 }
-.card div{
+.card div{                     /*for placing title in the correct spot on the picture*/
     position: absolute;
     bottom: 18px;
     background-color: aquamarine;
