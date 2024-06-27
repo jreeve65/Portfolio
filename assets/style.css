@@ -180,13 +180,15 @@ nav li{
         border-left: none;
         border-top: solid;
     }
-    /* .lines ul{
-        display: inline-flex;
-        justify-content: space-between;
-    } */
+    
     .container{
         flex-wrap: wrap;
         justify-content: center;
+
+    }
+    #contact{
+        flex-flow: column;
+        align-items: center;
     }
     
 }
