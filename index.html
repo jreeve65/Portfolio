@@ -6,20 +6,66 @@
     <meta name ="author" content="Jordan Reeve">
     <meta name="keywords" content="HTML,CSS,JavaScript,Web Developer,Programmer">
     <title>Jordan's Portfolio</title>
+    <link rel="stylesheet" href="./assets/reset.css">
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-    <header>
-        <p class="display_top">Jordan Reeve</p>
+    <header class="cover-photo">
+        <h1 class="display_top">Jordan Reeve</h1>
         <nav>
             <ul>
-                <li>About Me</li>
-                <li>Work</li>
-                <li>Contact</li>
-                <li>Resume</li>
+                <li><a href="#about_me">About Me</a></li>
+                <li><a href="#Work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
+    <main>
+        <section class="profile_img">
+            <img class="center" src="./assets/Profile.png" alt="picture of soldier">
+        </section>        
+        <section class="container" id="about_me">
+            <span><h2>About Me</h2></span>            
+            <div class="lines">
+                My name is Jordan Reeve I am a retired Marine, College graduate BS Crimnal Justice, Father of two and
+                a computer Programmer. My Hobbies include : Spending time with my family, Gaming, Playing guitar,
+                Sports, and Shooting. I really enjoy learning new things and am constantly looking to expand my skill set. I enjoy collaberating with
+                others and love the satisfaction one gets from accomplishing a daunting task through team work.
+            </div>
+           
+
+        </section>
+        <section class="container" id="Work">
+            </span><h2>Work</h2></span>
+            <div class="lines">
+                <a href="https://jreeve65.github.io/Horiseon-Refactor/"><section id="code-refactor" class="card">
+                    <!-- <img  src="./assets/digital-marketing-meeting.jpg" alt="picture of business meeting"> -->
+                    <div>Horiseon Refactor</div>
+
+                </section></a>
+                <a href=" https://jreeve65.github.io/Prework-Study-Guide/"><section class="card" id="prework">
+                    <!-- <img src="./assets/Notebook.png" alt="picture of notebook"> -->
+                    <div>Web Dev Study Guide</div>                    
+                </section></a>
+                <a href="./assets/temp.html"><section class="card" id="projectgg">
+                    <!-- <img src="./assets/placeholder.png" alt="placeholder"> -->
+                    <div>Project GG</div>
+    
+                </section></a>
+
+            </div>
+        </section>
+        <section class="container" id="contact">
+            <h2>Contact</h2>
+            <div class="lines">
+                <ul>
+                    <li>Github:jreeve65</li>
+                    <li>Phone:555-555-5555</li>
+                    <li>email:some_email@somesite.com</li>
+                </ul>
+            </div>
+        </section>
+    </main>
     
 </body>
 </html>
