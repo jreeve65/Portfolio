@@ -1,3 +1,6 @@
+body{
+    background-color: gray;
+}
 header{
     padding: 50px 10px 15px 10px;
     display: flex;
@@ -54,10 +57,10 @@ nav li{
  .lines {                                /*for getting the border to display properly on the flex box and sets up portfolio pics to align correctly*/
     display: flex; 
     flex-direction: row;
-    justify-content:space-around;
+    justify-content:space-evenly;
     align-items: flex-start;
     flex-wrap: wrap;
-    margin-left: 8px;
+    margin: 8px;
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 15px;
@@ -68,6 +71,7 @@ nav li{
 }
 .container {                           /*providing a container for each section of the portfolio*/
     margin-top: 100px;
+    margin: 100px 20px 20px 20px;
     display:flex;
     flex-wrap: nowrap;
     align-items: flex-start;
@@ -99,26 +103,40 @@ nav li{
     color: gold;
     
 }
-#code-refactor img{         /* for adjusting refactor size and position If I cant get every image to grow I may need to hard code the size instead of using a percentage*/
-    min-width: 700px;
-    max-width: 100%;
+#code-refactor{         /* for adjusting refactor size and position If I cant get every image to grow I may need to hard code the size instead of using a percentage*/
+    /* min-width: 700px;
+    max-width: 100%;*/
+    margin-left: 20px;
+    min-width:1200px;
+    min-height: 500px;
+    background-image: url("./digital-marketing-meeting.jpg");
+    background-size: cover;
+} 
+#projectgg{           /*alters project gg portfolio image*/
+       background-image: url("./placeholder.png");
+       background-size: 100%;
+       background-repeat: no-repeat;
 }
-#projectgg img {           /*alters project gg portfolio image*/
-       max-width: 155rem;
-       min-width: 40rem;
-}
-#prework img{              /*adjusts web dev studyguide picture size*/
-    max-width: 41.5rem;
+#prework{  
+    background-image: url("./Notebook.png");
+    background-size: cover;
+    background-repeat: no-repeat;            /*adjusts web dev studyguide picture size*/
+    /* max-width: 41.5rem;
     min-width:200px;
-    
+     */
 
 }
 
 .card{                                   /*gives card a background color that extends past picture making a nice frame sets up for title placement*/
     position: relative;
+    min-width: 500px;
+    min-height: 250px;
     padding: 8px;
     margin: 15px;
-    background-color: darkblue;       
+    border: solid;
+    border-color: darkblue;
+    border-width: 10px;
+    
     
 }
 .card div{                     /*for placing title in the correct spot on the picture*/
