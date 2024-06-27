@@ -180,13 +180,26 @@ nav li{
         border-left: none;
         border-top: solid;
     }
-    .lines ul{
+    /* .lines ul{
         display: inline-flex;
         justify-content: space-between;
-    }
+    } */
     .container{
         flex-wrap: wrap;
         justify-content: center;
     }
+    
+}
+@media screen and (max-width:500px) {
+    #code-refactor{
+        min-width: 300px;
+        min-height: 300px;
+    }
+    .lines{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        
+    }
+    
     
 }
