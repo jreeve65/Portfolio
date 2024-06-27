@@ -161,3 +161,26 @@ nav li{
         justify-content: center;
     }
 }
+
+@media screen and (max-width: 1020px) {  /* how do I get contacts to appear on top earlier?*/
+    #code-refactor{
+        min-width: 600px;
+
+    }
+    .card{
+        min-width: 250px;
+    }
+    .lines{
+        border-left: none;
+        border-top: solid;
+    }
+    .lines ul{
+        display: inline-flex;
+        justify-content: space-between;
+    }
+    .container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}
